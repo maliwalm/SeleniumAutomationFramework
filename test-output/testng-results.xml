@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29914" started-at="2018-12-16T07:51:24Z" finished-at="2018-12-16T07:51:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29914" started-at="2018-12-16T07:51:24Z" finished-at="2018-12-16T07:51:54Z">
+      <class name="com.qa.test.TC01_loginApp">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:com.qa.test.TC01_loginApp@dc24521]" name="BeforeSuite" is-config="true" duration-ms="427" started-at="2018-12-16T13:21:23Z" finished-at="2018-12-16T13:21:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.qa.test.TC01_loginApp@dc24521]" name="BeforeTest" is-config="true" duration-ms="1" started-at="2018-12-16T13:21:24Z" finished-at="2018-12-16T13:21:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:com.qa.test.TC01_loginApp@dc24521]" name="BeforeClass" is-config="true" duration-ms="11" started-at="2018-12-16T13:21:24Z" finished-at="2018-12-16T13:21:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.test.TC01_loginApp@dc24521]" name="BeforeMethod" is-config="true" duration-ms="13124" started-at="2018-12-16T13:21:24Z" finished-at="2018-12-16T13:21:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.TC01_loginApp.LoginApp1(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="LoginApp1(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.TC01_loginApp@dc24521]" name="LoginApp1" duration-ms="4369" started-at="2018-12-16T13:21:37Z" data-provider="Login" finished-at="2018-12-16T13:21:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mohit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mohit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApp1 -->
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.test.TC01_loginApp@dc24521]" name="AfterMethod" is-config="true" duration-ms="849" started-at="2018-12-16T13:21:41Z" finished-at="2018-12-16T13:21:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginApp1 status=SUCCESS method=TC01_loginApp.LoginApp1(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.TC01_loginApp@dc24521] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.test.TC01_loginApp@dc24521]" name="BeforeMethod" is-config="true" duration-ms="7050" started-at="2018-12-16T13:21:42Z" finished-at="2018-12-16T13:21:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.TC01_loginApp.LoginApp1(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="LoginApp1(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.TC01_loginApp@dc24521]" name="LoginApp1" duration-ms="3648" started-at="2018-12-16T13:21:49Z" data-provider="Login" finished-at="2018-12-16T13:21:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApp1 -->
+        <test-method status="PASS" signature="AfterMethod(org.testng.ITestResult)[pri:0, instance:com.qa.test.TC01_loginApp@dc24521]" name="AfterMethod" is-config="true" duration-ms="820" started-at="2018-12-16T13:21:53Z" finished-at="2018-12-16T13:21:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginApp1 status=SUCCESS method=TC01_loginApp.LoginApp1(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.TC01_loginApp@dc24521] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:com.qa.test.TC01_loginApp@dc24521]" name="AfterTest" is-config="true" duration-ms="1" started-at="2018-12-16T13:21:54Z" finished-at="2018-12-16T13:21:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+        <test-method status="FAIL" signature="afterSuite()[pri:0, instance:com.qa.test.TC01_loginApp@dc24521]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-12-16T13:21:54Z" finished-at="2018-12-16T13:21:54Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[javax.mail.AuthenticationFailedException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: javax.mail.AuthenticationFailedException
+	at com.qa.common.Util.SendMail(Util.java:215)
+	at com.qa.common.TestBase.afterSuite(TestBase.java:131)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:308)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: javax.mail.AuthenticationFailedException
+	at javax.mail.Service.connect(Service.java:306)
+	at javax.mail.Service.connect(Service.java:156)
+	at javax.mail.Service.connect(Service.java:105)
+	at javax.mail.Transport.send0(Transport.java:168)
+	at javax.mail.Transport.send(Transport.java:98)
+	at com.qa.common.Util.SendMail(Util.java:212)
+	... 19 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.qa.test.TC01_loginApp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

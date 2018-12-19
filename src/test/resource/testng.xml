@@ -2,24 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 	<listeners>
-		        <listener class-name="Common.TestNGListeners"/>
+		        <listener class-name="com.qa.common.TestNGListeners"/>
 	</listeners>
 		  <test name="Smoke">
 		    <classes>
-		      <class name="testcasesSanity.TC01_loginApp"/>
-		      <class name="testcasesSanity.TC02_addNewProject"/>
-		      <class name="testcasesSanity.TC03_addProduct"/>
-		      <class name="testcasesSanity.TC04_05_AreasAndRevision"/>
-		      <class name="testcasesSanity.TC06_addHFR"/>
-		      <class name="testcasesSanity.TC07_createQuote"/>
-		      <class name="testcasesSanity.TC08_CAuser"/>
-		      <class name="testcasesSanity.TC09_CreatingBudgetaryReport"/>
-		      <class name="testcasesSanity.TC15_addProductByCAUser"/>
-		      <!--<class name="testcasesSanity.TC10_AddProductByModelNo"/>
-		      <class name="testcasesSanity.TC11_shoppingCart"/>
-		      <class name="testcasesSanity.TC12_requestReturn"/> 
-		      <class name="testcasesSanity.TC13_approveReturn"/> 
-		     <class name="testcasesSanity.TC14_authorizeReturn"/> -->
+		      <class name="com.qa.test.TC01_loginApp"/>
 		    </classes>
 		  </test> <!-- Test -->
 	</suite> <!-- Suite -->

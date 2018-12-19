@@ -4,6 +4,7 @@ package com.qa.test;
 import com.qa.common.TestBase;
 import com.qa.pages.LoginPage;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.qa.common.DataProviders;
@@ -16,6 +17,7 @@ public class TC01_loginApp extends TestBase {
 	public void LoginApp1(String username,String password){
 		
 		LoginPage.loginToApp(username, password);
-		
+		String title = LoginPage.getPageTitle();
+		Assert.assertEquals("Find a Flight: Mercury Tours:", title);
 	}
 }

@@ -31,6 +31,12 @@ public class Config {
 	public static String screenshotOnSkip;
 	public static String screenshotOnPass;
 	public static String appConfig;
+	public static String jiraUsername;
+	public static String jiraPassword;
+	public static String jiraURL;
+	public static String jiraReporter;
+	public static String logDefectOnFailure;
+	
 
 	public Config() {
 	}
@@ -70,6 +76,12 @@ public class Config {
 				screenshotOnPass = prop.getProperty("ScreenshotOnPass");
 				ApplicationURL = prop.getProperty("AppUrl");
 				appConfig = prop.getProperty("AppConfig");
+				logDefectOnFailure=prop.getProperty("logDefectOnFailure");
+				jiraURL=prop.getProperty("JiraURL");
+				jiraUsername=prop.getProperty("JiraUserID");
+				jiraPassword=prop.getProperty("JiraPassword");
+				jiraURL=prop.getProperty("JiraURL");
+				jiraReporter=prop.getProperty("JiraDefectReporter");
 			}
 
 		} catch (IOException e) {

@@ -197,7 +197,7 @@ public class Util {
 			Message message = new MimeMessage(session);
 			message.setFrom(new InternetAddress(from));
 			message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(to));
-			message.setSubject("Saltmarsh Functional Automation test Report");
+			message.setSubject("NewTours Demo Functional Automation test Report");
 			BodyPart messageBodyPart = new MimeBodyPart();
 			messageBodyPart.setText("Hi All , Please find the attached Automation Test execution Report.");
 			Multipart multipart = new MimeMultipart();

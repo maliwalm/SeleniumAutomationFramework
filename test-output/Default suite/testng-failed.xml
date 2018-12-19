@@ -11,7 +11,7 @@
           <include name="BeforeTest"/>
           <include name="afterSuite"/>
           <include name="AfterTest"/>
-          <include name="LoginApp1" invocation-numbers="0 1"/>
+          <include name="LoginApp1" invocation-numbers="1"/>
           <include name="BeforeMethod"/>
         </methods>
       </class> <!-- com.qa.test.TC01_loginApp -->

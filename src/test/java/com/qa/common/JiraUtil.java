@@ -10,6 +10,7 @@ import org.apache.http.entity.mime.MultipartEntityBuilder;
 import org.apache.http.entity.mime.content.FileBody;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
+import org.apache.log4j.Logger;
 
 import com.sun.jersey.api.client.Client;
 import com.sun.jersey.api.client.ClientResponse;
@@ -22,15 +23,18 @@ public class JiraUtil {
 	public final String JIRA_USERNAME=Config.jiraUsername;
 	public final String JIRA_PASSWORD=Config.jiraPassword;
 	public final String JIRA_ISSUE_REPORTER= Config.jiraReporter;
+	public final String JIRA_PROJECT = Config.jiraProject;
+	private static Logger log = Logger.getLogger(JiraUtil.class);
 	
-	public String createDefect( String defectProject , String summary , String description , String JIRA_ISSUE_REPORTER) {
+	public String createDefect( String summary , String description) {
+		log.info(" : createDefect Method Called");
 		//intiate connection with JIRA tool
 		Client oClient = Client.create();
 		oClient.addFilter(new HTTPBasicAuthFilter(JIRA_USERNAME,JIRA_PASSWORD));
 		WebResource oWebResource = oClient.resource(JIRA_URL+ "/rest/api/2/issue");
 
 		//frame the message which we want to post to JIRA defect board
-		String sInput = "{\'fields\':{\"project\":{\"key\": \""+defectProject+"\"},\"summary\":\""+summary +"\",\"description\":\""+description +"\",\"issuetype\":{\"name\":\"Defect\"},\"issuetype\":{\"name\":\""+JIRA_ISSUE_REPORTER+"\"}}}";
+		String sInput = "{\'fields\':{\"project\":{\"key\": \""+JIRA_PROJECT+"\"},\"summary\":\""+summary +"\",\"description\":\""+description +"\",\"issuetype\":{\"name\":\"Defect\"},\"issuetype\":{\"name\":\""+JIRA_ISSUE_REPORTER+"\"}}}";
 		//post the framed value and store the output to extract the issueKey. So that, we can attach the screenshot of the failed test case along with the defect
 		ClientResponse oResponse = oWebResource.type("application/json").post(ClientResponse.class, sInput);
 		String sOutput = oResponse.getEntity(String.class);
@@ -39,6 +43,7 @@ public class JiraUtil {
 	}
 	
 	public void attachScreenshot(String defectId ,String screenshotPath) throws IOException {
+		log.info(" : attachScreenshot Method Called");
 		//create connection to attach the screenshot to the defect
 		String sAuthenticationConnString = new String(org.apache.commons.codec.binary.Base64.encodeBase64((JIRA_USERNAME + ":" +JIRA_PASSWORD).getBytes()));
 

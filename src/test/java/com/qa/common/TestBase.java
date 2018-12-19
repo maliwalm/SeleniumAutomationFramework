@@ -39,6 +39,7 @@ public class TestBase {
 	public static ExtentTest TestLogger;
 	protected Util util;
 	protected static String objName;
+	public static JiraUtil jira = new JiraUtil();
 
 	protected static String seperator = ",";
 	protected static DataSourceOperations dataSourceOperations = new DataSourceOperations();
@@ -90,6 +91,13 @@ public class TestBase {
 			test.get().fail(MarkupHelper.createLabel(result.getName() + "Test case FAILED", ExtentColor.RED));
 			if (Config.screenshotOnFailure.equalsIgnoreCase("true")){
 				String screenShotPath = Util.captureScreenshot(eDriver, "Failure");
+				if (Config.logDefectOnFailure.equalsIgnoreCase("true")){
+					String summary = result.getName() + "Test case Failed";
+					String description = result.getName() + "Test case Failed";
+					String defectId = jira.createDefect(summary, description);
+					jira.attachScreenshot(defectId, screenShotPath);
+				}
+				
 				test.get().fail("Snapshot below: " + test.get().addScreenCaptureFromPath(screenShotPath));
 			}
 		} else 

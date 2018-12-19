@@ -2,6 +2,7 @@ package com.qa.common;
 
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 
 public class GetLocator extends TestBase {
@@ -9,9 +10,10 @@ public class GetLocator extends TestBase {
 	private static String xmlPath;
 	private static List<String> listLocator;
 	private static By locator;
-
+	private static Logger log = Logger.getLogger(GetLocator.class);
 	
 	public static By GetElement(String locatorValue, String locatorType) throws Exception {
+		log.info(" : GetElement Method Called");
 		switch (locatorType.toLowerCase()) {
 		case "id":
 			return By.id(locatorValue);
@@ -37,6 +39,7 @@ public class GetLocator extends TestBase {
 	}
 
 	public static By findElement(String PageName, String ObjectName) {
+		log.info(" : findElement Method Called");
 		try {
 			objName = ObjectName;
 			xmlPath = Config.locatorsFile;
@@ -50,6 +53,7 @@ public class GetLocator extends TestBase {
 
 	
 	public static void Sleep(int millsecs) {
+		log.info(" : Sleep Method Called");
 		try {
 			Thread.sleep(millsecs);
 		} catch (Exception ex) {

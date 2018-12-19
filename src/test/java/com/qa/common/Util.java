@@ -3,7 +3,6 @@ package com.qa.common;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
@@ -53,7 +52,6 @@ public class Util {
 		log.info(" : Util Constructor Called");
 	}
 
-
 	public static String generateUniqueName() {
 		log.info(" : GenerateUniqueNameMethod Method Called");
 		SimpleDateFormat sdfDate = new SimpleDateFormat("yyyyMMdd_HHmmss_z");
@@ -76,54 +74,6 @@ public class Util {
 			log.error(ex.getMessage());
 			ex.printStackTrace();
 			return ex.getMessage();
-		}
-	}
-
-
-	public static long getFolderSizeInByte(String directory) {
-		// long length = 0;
-		File file = new File(directory);
-		long size = FileUtils.sizeOfDirectory(file);
-		return size;
-	}
-
-	public static void zipfolder(String Destloc, String sourceLoc) {
-		try {
-			ZipOutputStream zos = new ZipOutputStream(new FileOutputStream(Destloc + ".zip"));
-			zipDir(sourceLoc, zos);
-			zos.close();
-		} catch (Exception ex) {
-			log.error(ex.getMessage());
-			ex.printStackTrace();
-		}
-	}
-
-	
-	public static void zipDir(String dir2zip, ZipOutputStream zos) {
-		try {
-			File zipDir = new File(dir2zip);
-			String[] dirList = zipDir.list();
-			byte[] readBuffer = new byte[2156];
-			int bytesIn = 0;
-			for (int i = 0; i < dirList.length; i++) {
-				File f = new File(zipDir, dirList[i]);
-				if (f.isDirectory()) {
-					String filePath = f.getPath();
-					zipDir(filePath, zos);
-					continue;
-				}
-
-				FileInputStream fis = new FileInputStream(f);
-				ZipEntry anEntry = new ZipEntry(f.getPath());
-				zos.putNextEntry(anEntry);
-				while ((bytesIn = fis.read(readBuffer)) != -1) {
-					zos.write(readBuffer, 0, bytesIn);
-				}
-				fis.close();
-			}
-			System.out.println("Ziping Folder is Done");
-		} catch (Exception e) {
-			System.out.println("Exception in Ziping the folder");
 		}
 	}
 
@@ -164,6 +114,7 @@ public class Util {
 	}
 
 	public static void zipFolder(final Path screenShotsPath, Path zipPath) throws Exception {
+		log.info(" : zipfolder Method Called");
 		final ZipOutputStream zos = new ZipOutputStream(new FileOutputStream(zipPath.toFile()));
 		Files.walkFileTree(screenShotsPath, new SimpleFileVisitor<Path>() {
 			public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
@@ -177,6 +128,7 @@ public class Util {
 	}
 
 	public static void SendMail(String filePath) throws MessagingException {
+		log.info(" : SendMail Method Called");
 		String to = Config.mailTo;
 		String from = Config.mailFrom;
 		final String username = Config.mailFrom;
@@ -218,6 +170,7 @@ public class Util {
 
 
 	public static void isFolderExistAtPath(String filePath) {
+		log.info(" : isFolderExistAtPath Method Called");
 		File file = new File(filePath);
 		if (file.exists() && file.isDirectory()) {
 			System.out.println("Reports Folder exists at the path " + Config.ScreenShotsPath);

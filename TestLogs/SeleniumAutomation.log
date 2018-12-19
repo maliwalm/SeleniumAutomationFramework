@@ -1,0 +1,514 @@
+2018-12-16:13-00-09 -- INFO       com.qa.common.DataSourceOperations -  : FileOperation Constructor Called
+ 2018-12-16:13-00-09 -- INFO       com.qa.common.TestBase -  : TestBase - Constructor called
+ 2018-12-16:13-00-09 -- INFO       com.qa.common.TestBase - -----------------EXECUTION START----------------------
+ 2018-12-16:13-00-09 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeSuite called
+ 2018-12-16:13-00-09 -- INFO       com.qa.common.ExtentManager -  : ExtentReport getInstance Called
+ 2018-12-16:13-00-09 -- INFO       com.qa.common.ExtentManager -  : ExtentReport createInstance Called
+ 2018-12-16:13-00-09 -- INFO       com.qa.common.DataSourceOperations -  : CSVDataProvider Method Called
+ 2018-12-16:13-01-16 -- INFO       com.qa.common.DataSourceOperations -  : FileOperation Constructor Called
+ 2018-12-16:13-01-16 -- INFO       com.qa.common.TestBase -  : TestBase - Constructor called
+ 2018-12-16:13-01-16 -- INFO       com.qa.common.TestBase - -----------------EXECUTION START----------------------
+ 2018-12-16:13-01-16 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeSuite called
+ 2018-12-16:13-01-16 -- INFO       com.qa.common.ExtentManager -  : ExtentReport getInstance Called
+ 2018-12-16:13-01-16 -- INFO       com.qa.common.ExtentManager -  : ExtentReport createInstance Called
+ 2018-12-16:13-01-16 -- INFO       com.qa.common.TestBase -  : TesTBase - BeforeTest called
+ 2018-12-16:13-01-16 -- INFO       com.qa.common.TestBase -  : TesTBase - BeforeTest called
+ 2018-12-16:13-01-16 -- INFO       com.qa.common.DataSourceOperations -  : CSVDataProvider Method Called
+ 2018-12-16:13-01-16 -- ERROR      com.qa.common.DataSourceOperations - C:\Users\smaheshwari\Documents\GitHub\SeleniumFramework\TestData\TestCSV.csv (The system cannot find the path specified)
+ 2018-12-16:13-01-16 -- INFO       com.qa.common.TestBase -  : TestBase - AfterTest called
+ 2018-12-16:13-01-17 -- INFO       com.qa.common.TestBase -  : TestBase - AfterSuite called
+ 2018-12-16:13-01-17 -- INFO       com.qa.common.Util -  : sshotSetRelativePath Method Called
+ 2018-12-16:13-01-17 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:13-02-14 -- INFO       com.qa.common.DataSourceOperations -  : FileOperation Constructor Called
+ 2018-12-16:13-02-14 -- INFO       com.qa.common.TestBase -  : TestBase - Constructor called
+ 2018-12-16:13-02-14 -- INFO       com.qa.common.TestBase - -----------------EXECUTION START----------------------
+ 2018-12-16:13-02-14 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeSuite called
+ 2018-12-16:13-02-31 -- INFO       com.qa.common.ExtentManager -  : ExtentReport getInstance Called
+ 2018-12-16:13-03-24 -- INFO       com.qa.common.ExtentManager -  : ExtentReport createInstance Called
+ 2018-12-16:13-04-58 -- INFO       com.qa.common.TestBase -  : TesTBase - BeforeTest called
+ 2018-12-16:13-04-58 -- INFO       com.qa.common.TestBase -  : TesTBase - BeforeTest called
+ 2018-12-16:13-04-58 -- INFO       com.qa.common.DataSourceOperations -  : CSVDataProvider Method Called
+ 2018-12-16:13-04-58 -- ERROR      com.qa.common.DataSourceOperations - C:\Users\smaheshwari\Documents\GitHub\SeleniumFramework\TestData\TestCSV.csv (The system cannot find the path specified)
+ 2018-12-16:13-04-59 -- INFO       com.qa.common.TestBase -  : TestBase - AfterTest called
+ 2018-12-16:13-12-23 -- INFO       com.qa.common.DataSourceOperations -  : FileOperation Constructor Called
+ 2018-12-16:13-12-23 -- INFO       com.qa.common.TestBase -  : TestBase - Constructor called
+ 2018-12-16:13-12-24 -- INFO       com.qa.common.TestBase - -----------------EXECUTION START----------------------
+ 2018-12-16:13-12-24 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeSuite called
+ 2018-12-16:13-12-24 -- INFO       com.qa.common.ExtentManager -  : ExtentReport getInstance Called
+ 2018-12-16:13-12-24 -- INFO       com.qa.common.ExtentManager -  : ExtentReport createInstance Called
+ 2018-12-16:13-12-24 -- INFO       com.qa.common.TestBase -  : TesTBase - BeforeTest called
+ 2018-12-16:13-12-24 -- INFO       com.qa.common.TestBase -  : TesTBase - BeforeTest called
+ 2018-12-16:13-12-24 -- INFO       com.qa.common.DataSourceOperations -  : CSVDataProvider Method Called
+ 2018-12-16:13-12-24 -- INFO       com.qa.common.TestBase -  : TestBase - AfterTest called
+ 2018-12-16:13-12-24 -- INFO       com.qa.common.TestBase -  : TestBase - AfterSuite called
+ 2018-12-16:13-12-25 -- INFO       com.qa.common.Util -  : sshotSetRelativePath Method Called
+ 2018-12-16:13-12-25 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:13-13-33 -- INFO       com.qa.common.DataSourceOperations -  : FileOperation Constructor Called
+ 2018-12-16:13-13-33 -- INFO       com.qa.common.TestBase -  : TestBase - Constructor called
+ 2018-12-16:13-13-33 -- INFO       com.qa.common.TestBase - -----------------EXECUTION START----------------------
+ 2018-12-16:13-13-33 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeSuite called
+ 2018-12-16:13-13-39 -- INFO       com.qa.common.ExtentManager -  : ExtentReport getInstance Called
+ 2018-12-16:13-13-41 -- INFO       com.qa.common.ExtentManager -  : ExtentReport createInstance Called
+ 2018-12-16:13-13-42 -- INFO       com.qa.common.TestBase -  : TesTBase - BeforeTest called
+ 2018-12-16:13-13-42 -- INFO       com.qa.common.TestBase -  : TesTBase - BeforeTest called
+ 2018-12-16:13-13-42 -- INFO       com.qa.common.DataSourceOperations -  : CSVDataProvider Method Called
+ 2018-12-16:13-13-42 -- INFO       com.qa.common.TestBase -  : TestBase - AfterTest called
+ 2018-12-16:13-13-42 -- INFO       com.qa.common.TestBase -  : TestBase - AfterSuite called
+ 2018-12-16:13-13-43 -- INFO       com.qa.common.Util -  : sshotSetRelativePath Method Called
+ 2018-12-16:13-13-43 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:13-16-36 -- INFO       com.qa.common.DataSourceOperations -  : FileOperation Constructor Called
+ 2018-12-16:13-16-36 -- INFO       com.qa.common.TestBase -  : TestBase - Constructor called
+ 2018-12-16:13-16-36 -- INFO       com.qa.common.TestBase - -----------------EXECUTION START----------------------
+ 2018-12-16:13-16-36 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeSuite called
+ 2018-12-16:13-16-36 -- INFO       com.qa.common.ExtentManager -  : ExtentReport getInstance Called
+ 2018-12-16:13-16-36 -- INFO       com.qa.common.ExtentManager -  : ExtentReport createInstance Called
+ 2018-12-16:13-16-36 -- INFO       com.qa.common.TestBase -  : TesTBase - BeforeTest called
+ 2018-12-16:13-16-36 -- INFO       com.qa.common.TestBase -  : TesTBase - BeforeTest called
+ 2018-12-16:13-16-36 -- INFO       com.qa.common.DataSourceOperations -  : CSVDataProvider Method Called
+ 2018-12-16:13-16-36 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeMethod called
+ 2018-12-16:13-16-36 -- INFO       com.qa.common.Browser -  : OpenBrowser Method Called
+ 2018-12-16:13-17-08 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:13-17-08 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:13-17-08 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:13-17-08 -- INFO       com.qa.common.EventCapture - : onException :: null
+ 2018-12-16:13-17-08 -- INFO       com.qa.common.TestBase -  : TestBase - AfterMethod called
+ 2018-12-16:13-17-08 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:13-17-09 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:13-17-09 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeMethod called
+ 2018-12-16:13-17-09 -- INFO       com.qa.common.Browser -  : OpenBrowser Method Called
+ 2018-12-16:13-17-36 -- INFO       com.qa.common.EventCapture - : onException :: null
+ 2018-12-16:13-17-36 -- INFO       com.qa.common.TestBase -  : TestBase - AfterMethod called
+ 2018-12-16:13-17-36 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:13-17-37 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:13-17-38 -- INFO       com.qa.common.TestBase -  : TestBase - AfterTest called
+ 2018-12-16:13-17-38 -- INFO       com.qa.common.TestBase -  : TestBase - AfterSuite called
+ 2018-12-16:13-17-39 -- INFO       com.qa.common.Util -  : sshotSetRelativePath Method Called
+ 2018-12-16:13-17-39 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:13-18-32 -- INFO       com.qa.common.DataSourceOperations -  : FileOperation Constructor Called
+ 2018-12-16:13-18-32 -- INFO       com.qa.common.TestBase -  : TestBase - Constructor called
+ 2018-12-16:13-18-33 -- INFO       com.qa.common.TestBase - -----------------EXECUTION START----------------------
+ 2018-12-16:13-18-33 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeSuite called
+ 2018-12-16:13-18-33 -- INFO       com.qa.common.ExtentManager -  : ExtentReport getInstance Called
+ 2018-12-16:13-18-33 -- INFO       com.qa.common.ExtentManager -  : ExtentReport createInstance Called
+ 2018-12-16:13-18-33 -- INFO       com.qa.common.TestBase -  : TesTBase - BeforeTest called
+ 2018-12-16:13-18-33 -- INFO       com.qa.common.TestBase -  : TesTBase - BeforeTest called
+ 2018-12-16:13-18-33 -- INFO       com.qa.common.DataSourceOperations -  : CSVDataProvider Method Called
+ 2018-12-16:13-18-33 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeMethod called
+ 2018-12-16:13-18-33 -- INFO       com.qa.common.Browser -  : OpenBrowser Method Called
+ 2018-12-16:13-19-03 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:13-19-03 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:13-19-03 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:13-19-03 -- INFO       com.qa.common.EventCapture - : onException :: null
+ 2018-12-16:13-19-03 -- INFO       com.qa.common.TestBase -  : TestBase - AfterMethod called
+ 2018-12-16:13-19-03 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:13-19-04 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:13-19-05 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeMethod called
+ 2018-12-16:13-19-05 -- INFO       com.qa.common.Browser -  : OpenBrowser Method Called
+ 2018-12-16:13-19-31 -- INFO       com.qa.common.EventCapture - : onException :: null
+ 2018-12-16:13-19-31 -- INFO       com.qa.common.TestBase -  : TestBase - AfterMethod called
+ 2018-12-16:13-19-31 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:13-19-32 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:13-19-33 -- INFO       com.qa.common.TestBase -  : TestBase - AfterTest called
+ 2018-12-16:13-19-33 -- INFO       com.qa.common.TestBase -  : TestBase - AfterSuite called
+ 2018-12-16:13-19-34 -- INFO       com.qa.common.Util -  : sshotSetRelativePath Method Called
+ 2018-12-16:13-19-34 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:13-20-06 -- INFO       com.qa.common.DataSourceOperations -  : FileOperation Constructor Called
+ 2018-12-16:13-20-06 -- INFO       com.qa.common.TestBase -  : TestBase - Constructor called
+ 2018-12-16:13-20-06 -- INFO       com.qa.common.TestBase - -----------------EXECUTION START----------------------
+ 2018-12-16:13-20-06 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeSuite called
+ 2018-12-16:13-20-06 -- INFO       com.qa.common.ExtentManager -  : ExtentReport getInstance Called
+ 2018-12-16:13-20-06 -- INFO       com.qa.common.ExtentManager -  : ExtentReport createInstance Called
+ 2018-12-16:13-20-07 -- INFO       com.qa.common.TestBase -  : TesTBase - BeforeTest called
+ 2018-12-16:13-20-07 -- INFO       com.qa.common.TestBase -  : TesTBase - BeforeTest called
+ 2018-12-16:13-20-07 -- INFO       com.qa.common.DataSourceOperations -  : CSVDataProvider Method Called
+ 2018-12-16:13-20-07 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeMethod called
+ 2018-12-16:13-20-07 -- INFO       com.qa.common.Browser -  : OpenBrowser Method Called
+ 2018-12-16:13-20-37 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:13-20-37 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:13-20-37 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:13-21-05 -- INFO       com.qa.common.EventCapture - : onException :: no such element: Unable to locate element: {"method":"name","selector":"userName"}
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\SMAHES~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57358}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: d311fca1abe1118aed17f8a85a1cb8b9
+*** Element info: {Using=name, value=userName}
+ 2018-12-16:13-21-05 -- INFO       com.qa.common.TestBase -  : TestBase - AfterMethod called
+ 2018-12-16:13-21-05 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:13-21-06 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:13-21-07 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeMethod called
+ 2018-12-16:13-21-07 -- INFO       com.qa.common.Browser -  : OpenBrowser Method Called
+ 2018-12-16:13-21-13 -- INFO       com.qa.common.EventCapture - : onException :: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\SMAHES~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57456}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: 1ddb260d9438f16867a4b14c7f1333ec
+*** Element info: {Using=name, value=userName}
+ 2018-12-16:13-21-13 -- INFO       com.qa.common.TestBase -  : TestBase - AfterMethod called
+ 2018-12-16:13-21-13 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:13-21-13 -- INFO       com.qa.common.EventCapture - : onException :: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\SMAHES~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57456}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: 1ddb260d9438f16867a4b14c7f1333ec
+ 2018-12-16:13-21-13 -- ERROR      com.qa.common.Util - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=70.0.3538.110)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\SMAHES~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:57456}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 70.0.3538.110, webStorageEnabled: true}
+Session ID: 1ddb260d9438f16867a4b14c7f1333ec
+ 2018-12-16:13-21-14 -- INFO       com.qa.common.TestBase -  : TestBase - AfterTest called
+ 2018-12-16:13-21-14 -- INFO       com.qa.common.TestBase -  : TestBase - AfterSuite called
+ 2018-12-16:13-21-15 -- INFO       com.qa.common.Util -  : sshotSetRelativePath Method Called
+ 2018-12-16:13-21-15 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:13-21-23 -- INFO       com.qa.common.DataSourceOperations -  : FileOperation Constructor Called
+ 2018-12-16:13-21-23 -- INFO       com.qa.common.TestBase -  : TestBase - Constructor called
+ 2018-12-16:13-21-23 -- INFO       com.qa.common.TestBase - -----------------EXECUTION START----------------------
+ 2018-12-16:13-21-23 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeSuite called
+ 2018-12-16:13-21-23 -- INFO       com.qa.common.ExtentManager -  : ExtentReport getInstance Called
+ 2018-12-16:13-21-23 -- INFO       com.qa.common.ExtentManager -  : ExtentReport createInstance Called
+ 2018-12-16:13-21-24 -- INFO       com.qa.common.TestBase -  : TesTBase - BeforeTest called
+ 2018-12-16:13-21-24 -- INFO       com.qa.common.TestBase -  : TesTBase - BeforeTest called
+ 2018-12-16:13-21-24 -- INFO       com.qa.common.DataSourceOperations -  : CSVDataProvider Method Called
+ 2018-12-16:13-21-24 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeMethod called
+ 2018-12-16:13-21-24 -- INFO       com.qa.common.Browser -  : OpenBrowser Method Called
+ 2018-12-16:13-21-37 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:13-21-37 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:13-21-37 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:13-21-37 -- INFO       com.qa.common.EventCapture - : onException :: actions
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: EventFiringWebDriver
+ 2018-12-16:13-21-38 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:13-21-39 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:13-21-39 -- INFO       com.qa.common.EventCapture - : onException :: actions
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: EventFiringWebDriver
+ 2018-12-16:13-21-39 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:13-21-40 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:13-21-40 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:13-21-40 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:13-21-41 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:13-21-41 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:13-21-41 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:13-21-41 -- INFO       com.qa.common.TestBase -  : TestBase - AfterMethod called
+ 2018-12-16:13-21-42 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeMethod called
+ 2018-12-16:13-21-42 -- INFO       com.qa.common.Browser -  : OpenBrowser Method Called
+ 2018-12-16:13-21-49 -- INFO       com.qa.common.EventCapture - : onException :: actions
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: EventFiringWebDriver
+ 2018-12-16:13-21-50 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:13-21-50 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:13-21-50 -- INFO       com.qa.common.EventCapture - : onException :: actions
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: EventFiringWebDriver
+ 2018-12-16:13-21-51 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:13-21-51 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:13-21-51 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:13-21-51 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:13-21-52 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:13-21-52 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:13-21-53 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:13-21-53 -- INFO       com.qa.common.TestBase -  : TestBase - AfterMethod called
+ 2018-12-16:13-21-54 -- INFO       com.qa.common.TestBase -  : TestBase - AfterTest called
+ 2018-12-16:13-21-54 -- INFO       com.qa.common.TestBase -  : TestBase - AfterSuite called
+ 2018-12-16:13-21-55 -- INFO       com.qa.common.Util -  : sshotSetRelativePath Method Called
+ 2018-12-16:13-21-55 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:22-07-20 -- INFO       com.qa.common.DataSourceOperations -  : FileOperation Constructor Called
+ 2018-12-16:22-07-20 -- INFO       com.qa.common.TestBase -  : TestBase - Constructor called
+ 2018-12-16:22-07-20 -- INFO       com.qa.common.TestBase - -----------------EXECUTION START----------------------
+ 2018-12-16:22-07-20 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeSuite called
+ 2018-12-16:22-07-20 -- INFO       com.qa.common.ExtentManager -  : ExtentReport getInstance Called
+ 2018-12-16:22-07-20 -- INFO       com.qa.common.ExtentManager -  : ExtentReport createInstance Called
+ 2018-12-16:22-07-21 -- INFO       com.qa.common.TestBase -  : TesTBase - BeforeTest called
+ 2018-12-16:22-07-21 -- INFO       com.qa.common.TestBase -  : TesTBase - BeforeTest called
+ 2018-12-16:22-07-21 -- INFO       com.qa.common.DataSourceOperations -  : CSVDataProvider Method Called
+ 2018-12-16:22-07-21 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeMethod called
+ 2018-12-16:22-07-21 -- INFO       com.qa.common.Browser -  : OpenBrowser Method Called
+ 2018-12-16:22-07-34 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:22-07-34 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:22-07-34 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:22-07-34 -- INFO       com.qa.common.EventCapture - : onException :: actions
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: EventFiringWebDriver
+ 2018-12-16:22-07-34 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:22-07-35 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:22-07-35 -- INFO       com.qa.common.EventCapture - : onException :: actions
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: EventFiringWebDriver
+ 2018-12-16:22-07-35 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:22-07-36 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:22-07-36 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:22-07-36 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:22-07-37 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:22-07-37 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:22-07-38 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:22-07-38 -- INFO       com.qa.common.TestBase -  : TestBase - AfterMethod called
+ 2018-12-16:22-07-39 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeMethod called
+ 2018-12-16:22-07-39 -- INFO       com.qa.common.Browser -  : OpenBrowser Method Called
+ 2018-12-16:22-07-46 -- INFO       com.qa.common.EventCapture - : onException :: actions
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: EventFiringWebDriver
+ 2018-12-16:22-07-47 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:22-07-47 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:22-07-48 -- INFO       com.qa.common.EventCapture - : onException :: actions
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: EventFiringWebDriver
+ 2018-12-16:22-07-48 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:22-07-49 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:22-07-49 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:22-07-49 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:22-07-50 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:22-07-50 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:22-07-51 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:22-07-51 -- INFO       com.qa.common.TestBase -  : TestBase - AfterMethod called
+ 2018-12-16:22-07-52 -- INFO       com.qa.common.TestBase -  : TestBase - AfterTest called
+ 2018-12-16:22-07-52 -- INFO       com.qa.common.TestBase -  : TestBase - AfterSuite called
+ 2018-12-16:22-07-53 -- INFO       com.qa.common.Util -  : sshotSetRelativePath Method Called
+ 2018-12-16:22-07-53 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:22-30-11 -- INFO       com.qa.common.DataSourceOperations -  : FileOperation Constructor Called
+ 2018-12-16:22-30-11 -- INFO       com.qa.common.TestBase -  : TestBase - Constructor called
+ 2018-12-16:22-30-11 -- INFO       com.qa.common.TestBase - -----------------EXECUTION START----------------------
+ 2018-12-16:22-30-11 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeSuite called
+ 2018-12-16:22-30-11 -- INFO       com.qa.common.ExtentManager -  : ExtentReport getInstance Called
+ 2018-12-16:22-30-11 -- INFO       com.qa.common.ExtentManager -  : ExtentReport createInstance Called
+ 2018-12-16:22-30-11 -- INFO       com.qa.common.TestBase -  : TesTBase - BeforeTest called
+ 2018-12-16:22-30-11 -- INFO       com.qa.common.TestBase -  : TesTBase - BeforeTest called
+ 2018-12-16:22-30-11 -- INFO       com.qa.common.DataSourceOperations -  : CSVDataProvider Method Called
+ 2018-12-16:22-30-11 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeMethod called
+ 2018-12-16:22-30-11 -- INFO       com.qa.common.Browser -  : OpenBrowser Method Called
+ 2018-12-16:22-30-23 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:22-30-23 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:22-30-23 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:22-30-23 -- INFO       com.qa.common.EventCapture - : onException :: actions
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: EventFiringWebDriver
+ 2018-12-16:22-30-24 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:22-30-25 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:22-30-25 -- INFO       com.qa.common.EventCapture - : onException :: actions
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: EventFiringWebDriver
+ 2018-12-16:22-30-25 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:22-30-26 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:22-31-13 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:22-31-13 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:22-31-13 -- INFO       com.qa.common.TestBase -  : TestBase - AfterMethod called
+ 2018-12-16:22-31-13 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:22-31-14 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:22-31-15 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeMethod called
+ 2018-12-16:22-31-15 -- INFO       com.qa.common.Browser -  : OpenBrowser Method Called
+ 2018-12-16:22-31-24 -- INFO       com.qa.common.EventCapture - : onException :: actions
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: EventFiringWebDriver
+ 2018-12-16:22-31-24 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:22-31-25 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:22-31-25 -- INFO       com.qa.common.EventCapture - : onException :: actions
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: EventFiringWebDriver
+ 2018-12-16:22-31-25 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:22-31-26 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:22-31-33 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:22-31-33 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:22-31-33 -- INFO       com.qa.common.TestBase -  : TestBase - AfterMethod called
+ 2018-12-16:22-31-33 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:22-31-34 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:22-31-35 -- INFO       com.qa.common.TestBase -  : TestBase - AfterTest called
+ 2018-12-16:22-31-35 -- INFO       com.qa.common.TestBase -  : TestBase - AfterSuite called
+ 2018-12-16:22-31-36 -- INFO       com.qa.common.Util -  : sshotSetRelativePath Method Called
+ 2018-12-16:22-31-36 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:22-34-28 -- INFO       com.qa.common.DataSourceOperations -  : FileOperation Constructor Called
+ 2018-12-16:22-34-28 -- INFO       com.qa.common.TestBase -  : TestBase - Constructor called
+ 2018-12-16:22-34-28 -- INFO       com.qa.common.TestBase - -----------------EXECUTION START----------------------
+ 2018-12-16:22-34-28 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeSuite called
+ 2018-12-16:22-34-28 -- INFO       com.qa.common.ExtentManager -  : ExtentReport getInstance Called
+ 2018-12-16:22-34-28 -- INFO       com.qa.common.ExtentManager -  : ExtentReport createInstance Called
+ 2018-12-16:22-34-29 -- INFO       com.qa.common.TestBase -  : TesTBase - BeforeTest called
+ 2018-12-16:22-34-29 -- INFO       com.qa.common.TestBase -  : TesTBase - BeforeTest called
+ 2018-12-16:22-34-29 -- INFO       com.qa.common.DataSourceOperations -  : CSVDataProvider Method Called
+ 2018-12-16:22-34-29 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeMethod called
+ 2018-12-16:22-34-29 -- INFO       com.qa.common.Browser -  : OpenBrowser Method Called
+ 2018-12-16:22-34-34 -- ERROR      com.qa.common.Browser - permission denied
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+ 2018-12-16:22-34-34 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:22-34-34 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:22-34-34 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:22-34-34 -- INFO       com.qa.common.TestBase -  : TestBase - AfterMethod called
+ 2018-12-16:22-34-34 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:22-34-34 -- ERROR      com.qa.common.Util - 
+ 2018-12-16:22-34-53 -- INFO       com.qa.common.DataSourceOperations -  : FileOperation Constructor Called
+ 2018-12-16:22-34-53 -- INFO       com.qa.common.TestBase -  : TestBase - Constructor called
+ 2018-12-16:22-34-53 -- INFO       com.qa.common.TestBase - -----------------EXECUTION START----------------------
+ 2018-12-16:22-34-53 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeSuite called
+ 2018-12-16:22-34-53 -- INFO       com.qa.common.ExtentManager -  : ExtentReport getInstance Called
+ 2018-12-16:22-34-53 -- INFO       com.qa.common.ExtentManager -  : ExtentReport createInstance Called
+ 2018-12-16:22-34-53 -- INFO       com.qa.common.TestBase -  : TesTBase - BeforeTest called
+ 2018-12-16:22-34-53 -- INFO       com.qa.common.TestBase -  : TesTBase - BeforeTest called
+ 2018-12-16:22-34-53 -- INFO       com.qa.common.DataSourceOperations -  : CSVDataProvider Method Called
+ 2018-12-16:22-34-53 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeMethod called
+ 2018-12-16:22-34-53 -- INFO       com.qa.common.Browser -  : OpenBrowser Method Called
+ 2018-12-16:22-35-02 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:22-35-02 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:22-35-02 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:22-35-30 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:22-35-30 -- INFO       com.qa.common.EventCapture - : onException :: Unable to get browser
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:30333/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ff490c05-0825-4361-8693-34e0d0aea274
+ 2018-12-16:22-35-30 -- ERROR      com.qa.common.Util - Unable to get browser
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:30333/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ff490c05-0825-4361-8693-34e0d0aea274
+ 2018-12-16:22-35-30 -- INFO       com.qa.common.EventCapture - : onException :: Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:30333/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ff490c05-0825-4361-8693-34e0d0aea274
+*** Element info: {Using=name, value=password}
+ 2018-12-16:22-35-30 -- INFO       com.qa.common.TestBase -  : TestBase - AfterMethod called
+ 2018-12-16:22-35-30 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:22-35-30 -- INFO       com.qa.common.EventCapture - : onException :: Unable to get browser
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:30333/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ff490c05-0825-4361-8693-34e0d0aea274
+ 2018-12-16:22-35-30 -- ERROR      com.qa.common.Util - Unable to get browser
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:30333/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ff490c05-0825-4361-8693-34e0d0aea274
+ 2018-12-16:22-35-31 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeMethod called
+ 2018-12-16:22-35-31 -- INFO       com.qa.common.Browser -  : OpenBrowser Method Called
+ 2018-12-16:22-35-35 -- INFO       com.qa.common.EventCapture - : onException :: Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:22783/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c53ff22f-7341-425e-bfd4-f62e43f5ba08
+*** Element info: {Using=name, value=userName}
+ 2018-12-16:22-35-35 -- INFO       com.qa.common.TestBase -  : TestBase - AfterMethod called
+ 2018-12-16:22-35-35 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:22-35-35 -- INFO       com.qa.common.EventCapture - : onException :: Unable to get browser
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:22783/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c53ff22f-7341-425e-bfd4-f62e43f5ba08
+ 2018-12-16:22-35-35 -- ERROR      com.qa.common.Util - Unable to get browser
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:22783/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c53ff22f-7341-425e-bfd4-f62e43f5ba08
+ 2018-12-16:22-35-36 -- INFO       com.qa.common.TestBase -  : TestBase - AfterTest called
+ 2018-12-16:22-35-36 -- INFO       com.qa.common.TestBase -  : TestBase - AfterSuite called
+ 2018-12-16:22-35-37 -- INFO       com.qa.common.Util -  : sshotSetRelativePath Method Called
+ 2018-12-16:22-35-37 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:22-40-38 -- INFO       com.qa.common.DataSourceOperations -  : FileOperation Constructor Called
+ 2018-12-16:22-40-38 -- INFO       com.qa.common.TestBase -  : TestBase - Constructor called
+ 2018-12-16:22-40-38 -- INFO       com.qa.common.TestBase - -----------------EXECUTION START----------------------
+ 2018-12-16:22-40-38 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeSuite called
+ 2018-12-16:22-40-44 -- INFO       com.qa.common.ExtentManager -  : ExtentReport getInstance Called
+ 2018-12-16:22-40-47 -- INFO       com.qa.common.ExtentManager -  : ExtentReport createInstance Called
+ 2018-12-16:22-40-55 -- INFO       com.qa.common.TestBase -  : TesTBase - BeforeTest called
+ 2018-12-16:22-40-55 -- INFO       com.qa.common.TestBase -  : TesTBase - BeforeTest called
+ 2018-12-16:22-40-59 -- INFO       com.qa.common.DataSourceOperations -  : CSVDataProvider Method Called
+ 2018-12-16:22-41-03 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeMethod called
+ 2018-12-16:22-41-03 -- INFO       com.qa.common.Browser -  : OpenBrowser Method Called
+ 2018-12-16:22-41-36 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:22-45-17 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:22-45-19 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:22-45-20 -- INFO       com.qa.common.EventCapture - : onException :: actions
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: EventFiringWebDriver
+ 2018-12-16:22-45-22 -- INFO       com.qa.common.EventCapture - : onException :: actions
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: EventFiringWebDriver
+ 2018-12-16:22-45-50 -- INFO       com.qa.common.DataSourceOperations -  : FileOperation Constructor Called
+ 2018-12-16:22-45-50 -- INFO       com.qa.common.TestBase -  : TestBase - Constructor called
+ 2018-12-16:22-45-50 -- INFO       com.qa.common.TestBase - -----------------EXECUTION START----------------------
+ 2018-12-16:22-45-50 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeSuite called
+ 2018-12-16:22-45-50 -- INFO       com.qa.common.ExtentManager -  : ExtentReport getInstance Called
+ 2018-12-16:22-45-50 -- INFO       com.qa.common.ExtentManager -  : ExtentReport createInstance Called
+ 2018-12-16:22-45-51 -- INFO       com.qa.common.TestBase -  : TesTBase - BeforeTest called
+ 2018-12-16:22-45-51 -- INFO       com.qa.common.TestBase -  : TesTBase - BeforeTest called
+ 2018-12-16:22-45-51 -- INFO       com.qa.common.DataSourceOperations -  : CSVDataProvider Method Called
+ 2018-12-16:22-45-51 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeMethod called
+ 2018-12-16:22-45-51 -- INFO       com.qa.common.Browser -  : OpenBrowser Method Called
+ 2018-12-16:22-46-05 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:22-46-06 -- INFO       com.qa.common.EventCapture - : onException :: actions
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: EventFiringWebDriver
+ 2018-12-16:22-46-06 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:22-46-06 -- INFO       com.qa.common.EventCapture - : onException :: actions
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: EventFiringWebDriver
+ 2018-12-16:22-46-06 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:22-46-42 -- INFO       com.qa.common.TestBase -  : TestBase - AfterMethod called
+ 2018-12-16:22-46-43 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeMethod called
+ 2018-12-16:22-46-43 -- INFO       com.qa.common.Browser -  : OpenBrowser Method Called
+ 2018-12-16:22-46-50 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:22-46-51 -- INFO       com.qa.common.EventCapture - : onException :: actions
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: EventFiringWebDriver
+ 2018-12-16:22-46-56 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:22-46-56 -- INFO       com.qa.common.EventCapture - : onException :: actions
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-SMAHESHWARI', ip: '192.168.43.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: EventFiringWebDriver
+ 2018-12-16:22-47-01 -- INFO       com.qa.common.DataSourceOperations -  : GetXMLValue Method Called
+ 2018-12-16:22-47-10 -- INFO       com.qa.common.TestBase -  : TestBase - AfterMethod called
+ 2018-12-16:22-47-10 -- INFO       com.qa.common.Util -  : CaptureScreeshot Method Called
+ 2018-12-16:22-47-11 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-16:22-47-12 -- INFO       com.qa.common.TestBase -  : TestBase - AfterTest called
+ 2018-12-16:22-47-12 -- INFO       com.qa.common.TestBase -  : TestBase - AfterSuite called
+ 2018-12-16:22-47-13 -- INFO       com.qa.common.Util -  : sshotSetRelativePath Method Called
+ 2018-12-16:22-47-13 -- INFO       com.qa.common.Util -  : GenerateUniqueNameMethod Method Called
+ 2018-12-18:23-04-04 -- INFO       com.qa.common.DataSourceOperations -  : FileOperation Constructor Called
+ 2018-12-18:23-04-04 -- INFO       com.qa.common.TestBase -  : TestBase - Constructor called
+ 2018-12-18:23-04-05 -- INFO       com.qa.common.TestBase - -----------------EXECUTION START----------------------
+ 2018-12-18:23-04-05 -- INFO       com.qa.common.TestBase -  : TestBase - BeforeSuite called
+ 

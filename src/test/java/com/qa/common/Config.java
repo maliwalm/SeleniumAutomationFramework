@@ -35,7 +35,9 @@ public class Config {
 	public static String jiraPassword;
 	public static String jiraURL;
 	public static String jiraReporter;
+	public static String jiraProject;
 	public static String logDefectOnFailure;
+	
 	
 
 	public Config() {
@@ -82,6 +84,7 @@ public class Config {
 				jiraPassword=prop.getProperty("JiraPassword");
 				jiraURL=prop.getProperty("JiraURL");
 				jiraReporter=prop.getProperty("JiraDefectReporter");
+				jiraProject = prop.getProperty("JiraProject");
 			}
 
 		} catch (IOException e) {

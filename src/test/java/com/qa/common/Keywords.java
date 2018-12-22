@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.util.NoSuchElementException;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -20,10 +21,11 @@ public class Keywords extends TestBase{
 		try{
 			Actions a=new Actions(eDriver);
 			a.moveToElement(eDriver.findElement(element)).perform();
-			//TestLogger.log(Status.PASS, "\"" + "Scrolled to " + "\"" + objName + "\"");
 		}
-		catch(NoSuchElementException e){
-			System.err.format("No Element Found to enter text" + e);
+		catch(NoSuchElementException ex){
+			System.err.format("No Matching Element Found on Screen" + element);
+			log.error(ex.getMessage());
+			ex.printStackTrace();
 		}
 	}
 
@@ -37,7 +39,9 @@ public class Keywords extends TestBase{
 			wait.until(ExpectedConditions.visibilityOfElementLocated(element));
 		}
 		catch (NoSuchElementException ex){
-			System.err.format("No Element Found to enter text" + ex);
+			System.err.format("No Matching Element Found on Screen" + element);
+			log.error(ex.getMessage());
+			ex.printStackTrace();
 		}
 	}
 
@@ -50,7 +54,9 @@ public class Keywords extends TestBase{
 			wait.until(ExpectedConditions.invisibilityOfElementLocated(element));
 		}
 		catch (NoSuchElementException ex){
-			System.err.format("No Element Found to enter text" + ex);
+			System.err.format("No Matching Element Found on Screen" + element);
+			log.error(ex.getMessage());
+			ex.printStackTrace();
 		}
 	}
 
@@ -68,10 +74,13 @@ public class Keywords extends TestBase{
 			}
 		}
 		catch (NoSuchElementException ex){
-			System.err.format("No Element Found to enter text" + ex);
+			System.err.format("No Matching Element Found on Screen to enter text" + ex);
+			log.error(ex.getMessage());
+			ex.printStackTrace();
 		}
 		catch (IOException ex){
-			System.err.format("No Element Found to enter text" + ex);
+			log.error(ex.getMessage());
+			ex.printStackTrace();
 		}
 	}
 	
@@ -90,10 +99,13 @@ public class Keywords extends TestBase{
 			}
 		}
 		catch (NoSuchElementException ex){
-			System.err.format("No Element Found to enter text" + ex);
+			System.err.format("No Matching Element Found on Screen to enter text" + ex);
+			log.error(ex.getMessage());
+			ex.printStackTrace();
 		}
 		catch (IOException ex){
-			System.err.format("No Element Found to enter text" + ex);
+			log.error(ex.getMessage());
+			ex.printStackTrace();
 		}
 	}
 
@@ -111,10 +123,13 @@ public class Keywords extends TestBase{
 			}
 		}
 		catch (NoSuchElementException ex){
-			System.err.format("No Element Found to enter text" + ex);
+			System.err.format("No Matching Element Found on Screen" + button);
+			log.error(ex.getMessage());
+			ex.printStackTrace();
 		}
 		catch (IOException ex){
-			System.err.format("No Element Found to enter text" + ex);
+			log.error(ex.getMessage());
+			ex.printStackTrace();
 		}
 	}
 	
@@ -124,25 +139,47 @@ public class Keywords extends TestBase{
 		try{
 			Select drpdown = new Select(eDriver.findElement(dropdown));
 			drpdown.selectByVisibleText(value);
-			TestLogger.log(Status.PASS, "\"" +" Selected " + "\"" + value + "\"" + "from Dropdown");
 			if (Config.screenshotOnPass.equalsIgnoreCase("true")){
 				String screenShotPath = Util.captureScreenshot(eDriver, "Passed");
 					test.get().addScreenCaptureFromPath(screenShotPath);
 			}
 		}
 		catch (NoSuchElementException ex){
-			System.err.format("No Element Found to enter text" + ex);
+			System.err.format("Value" + value + "does not exist in the Dropdown" + dropdown);
+			log.error(ex.getMessage());
+			ex.printStackTrace();
 		}
 		catch (IOException ex){
-			System.err.format("No Element Found to enter text" + ex);
+			log.error(ex.getMessage());
+			ex.printStackTrace();
 		}
 	}
 
 
 	public static String getPageTitle()
 	{
-		log.info(" : selectDropdownValue Method Called");
-		return eDriver.getTitle();
+		try{
+			log.info(" : selectDropdownValue Method Called");
+			return eDriver.getTitle();
+		}
+		catch (Exception ex) {
+			log.error(ex.getMessage());
+			ex.printStackTrace();
+			return ex.getMessage();
+		}
 	} 
-
+	
+	public static boolean doesPageContainsText(String text) {
+		log.info(" : pageContainsText Method Called");
+		try {
+			WebElement element = eDriver.findElement(By.xpath("//*[contains(.,.)]"));
+			return element.getText().contains(text);
+		}
+		catch (Exception ex) {
+			log.error(ex.getMessage());
+			ex.printStackTrace();
+			return false;
+	}
+		
+	}
 }

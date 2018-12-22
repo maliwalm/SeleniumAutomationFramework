@@ -28,14 +28,10 @@ public class JiraUtil {
 	
 	public String createDefect( String summary , String description) {
 		log.info(" : createDefect Method Called");
-		//intiate connection with JIRA tool
 		Client oClient = Client.create();
 		oClient.addFilter(new HTTPBasicAuthFilter(JIRA_USERNAME,JIRA_PASSWORD));
 		WebResource oWebResource = oClient.resource(JIRA_URL+ "/rest/api/2/issue");
-
-		//frame the message which we want to post to JIRA defect board
 		String sInput = "{\'fields\':{\"project\":{\"key\": \""+JIRA_PROJECT+"\"},\"summary\":\""+summary +"\",\"description\":\""+description +"\",\"issuetype\":{\"name\":\"Defect\"},\"issuetype\":{\"name\":\""+JIRA_ISSUE_REPORTER+"\"}}}";
-		//post the framed value and store the output to extract the issueKey. So that, we can attach the screenshot of the failed test case along with the defect
 		ClientResponse oResponse = oWebResource.type("application/json").post(ClientResponse.class, sInput);
 		String sOutput = oResponse.getEntity(String.class);
 		String defectId = sOutput.split(":")[2].split(",")[0].replace("\"", "");
@@ -44,15 +40,12 @@ public class JiraUtil {
 	
 	public void attachScreenshot(String defectId ,String screenshotPath) throws IOException {
 		log.info(" : attachScreenshot Method Called");
-		//create connection to attach the screenshot to the defect
 		String sAuthenticationConnString = new String(org.apache.commons.codec.binary.Base64.encodeBase64((JIRA_USERNAME + ":" +JIRA_PASSWORD).getBytes()));
 
 		CloseableHttpClient oHttpclient = HttpClients.createSystem();
 		HttpPost oHttppost = new HttpPost(JIRA_URL + "/rest/api/2/issue/"+ defectId + "/attachments");
 		oHttppost.setHeader("X-Atlassian-Token", "no-check");
 		oHttppost.setHeader("Authorization", "Basic "+ sAuthenticationConnString);
-
-		//screenshot attached to the defect
 		File fileToUpload = new File(screenshotPath);
 		FileBody oFileBody = new FileBody(fileToUpload);
 		HttpEntity oEntity = MultipartEntityBuilder.create().addPart("file", oFileBody).build();
@@ -60,7 +53,6 @@ public class JiraUtil {
 		CloseableHttpResponse oResponse;
 		oResponse= oHttpclient.execute(oHttppost);
 		oHttpclient.close();
-
 		if (oResponse.getStatusLine().getStatusCode() == 200) {
 		       System.out.println("Attached successfully");
 		} else {

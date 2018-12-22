@@ -34,8 +34,7 @@
 		<!-- slideout menu -->
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
 			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
-						<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
-			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
+						<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
 		</ul>
 		<!-- report name -->
 		<span class='report-name'>Saltmarsh Test Execution report</span>
@@ -44,7 +43,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Dec 19, 2018 11:16:54 PM</span>
+			<span class='label blue darken-3 suite-start-time'>Dec 23, 2018 12:31:25 AM</span>
 			</a>
 		</ul>
 	</div>
@@ -60,7 +59,6 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
-					<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -103,10 +101,10 @@
                     <canvas id='parent-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> test(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> test(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='100%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
             </div>
         </div>
@@ -117,10 +115,10 @@
                     <canvas id='child-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='50%'><span class='strong'>1</span> step(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>4</span> step(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='50%'>1</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
             </div>
         </div>
@@ -138,23 +136,23 @@
 </div>	<div class='subview-left left'>
 		<div class='view-summary'>
 			<ul id='test-collection' class='test-collection'>
-				<li class='test displayed active has-leaf fail' status='fail' bdd='false' test-id='1'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>com.qa.test.TC01_loginApp</span>
-						<span class='test-time'>Dec 19, 2018 11:16:54 PM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-time'>Dec 23, 2018 12:31:25 AM</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Dec 19, 2018 11:16:54 PM</span>
-	<span class='label end-time'>Dec 19, 2018 11:16:54 PM</span>
+	<span class='label start-time'>Dec 23, 2018 12:31:25 AM</span>
+	<span class='label end-time'>Dec 23, 2018 12:31:25 AM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
 </div>
 <ul class='collapsible node-list' data-collapsible='accordion'>
 	<li class='node level-1 leaf pass' status='pass' test-id='2'>
 		<div class='collapsible-header'>
-			<div class='node-name'>LoginApp1</div>
-			<span class='node-time'>Dec 19, 2018 11:17:03 PM</span>
+			<div class='node-name'>LoginApp</div>
+			<span class='node-time'>Dec 23, 2018 12:31:35 AM</span>
 			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
 			<span class='test-status right pass'>pass</span>
 		</div>
@@ -171,7 +169,7 @@
 					<tbody>
 						<tr class='log' status='pass'>
 							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>11:17:04 PM</td>
+							<td class='timestamp'>12:31:35 AM</td>
 							<td class='step-details'>
 									"mohit" is entered in text box "textboxUsername"
 								
@@ -179,7 +177,7 @@
 						</tr>
 						<tr class='log' status='pass'>
 							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>11:17:04 PM</td>
+							<td class='timestamp'>12:31:36 AM</td>
 							<td class='step-details'>
 									"mohit" is entered in text box "textboxPassword"
 								
@@ -187,7 +185,7 @@
 						</tr>
 						<tr class='log' status='pass'>
 							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>11:17:09 PM</td>
+							<td class='timestamp'>12:31:41 AM</td>
 							<td class='step-details'>
 									" Clicked "buttonLogin"
 								
@@ -195,9 +193,9 @@
 						</tr>
 						<tr class='log' status='pass'>
 							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>11:17:09 PM</td>
+							<td class='timestamp'>12:31:41 AM</td>
 							<td class='step-details'>
-									<span class='badge white-text green'>LoginApp1Test case PASSED</span>
+									<span class='badge white-text green'>LoginAppTest case PASSED</span>
 								
 							</td>
 						</tr>
@@ -206,12 +204,12 @@
 			</div>
 		</div>
 	</li>
-	<li class='node level-1 leaf fail' status='fail' test-id='3'>
+	<li class='node level-1 leaf pass' status='pass' test-id='3'>
 		<div class='collapsible-header'>
-			<div class='node-name'>LoginApp1</div>
-			<span class='node-time'>Dec 19, 2018 11:17:18 PM</span>
+			<div class='node-name'>SearchFlight</div>
+			<span class='node-time'>Dec 23, 2018 12:31:41 AM</span>
 			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
-			<span class='test-status right fail'>fail</span>
+			<span class='test-status right pass'>pass</span>
 		</div>
 		<div class='collapsible-body'>
 			<div class='node-steps'>
@@ -226,88 +224,220 @@
 					<tbody>
 						<tr class='log' status='pass'>
 							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>11:17:18 PM</td>
+							<td class='timestamp'>12:31:52 AM</td>
 							<td class='step-details'>
-									"test" is entered in text box "textboxUsername"
+									" Clicked "radioRoundTrip"
 								
 							</td>
 						</tr>
 						<tr class='log' status='pass'>
 							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>11:17:19 PM</td>
+							<td class='timestamp'>12:32:05 AM</td>
 							<td class='step-details'>
-									"test" is entered in text box "textboxPassword"
+									" Clicked "radioFirstClass"
 								
 							</td>
 						</tr>
 						<tr class='log' status='pass'>
 							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-							<td class='timestamp'>11:17:21 PM</td>
+							<td class='timestamp'>12:32:08 AM</td>
 							<td class='step-details'>
-									" Clicked "buttonLogin"
+									" Clicked "buttonContinue"
 								
 							</td>
 						</tr>
-						<tr class='log' status='fail'>
-							<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-							<td class='timestamp'>11:17:21 PM</td>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>12:32:10 AM</td>
 							<td class='step-details'>
-									<textarea disabled class="code-block">java.lang.AssertionError: expected [Sign-on: Mercury Tours] but found [Find a Flight: Mercury Tours:]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at org.testng.Assert.assertEquals(Assert.java:176)
-	at org.testng.Assert.assertEquals(Assert.java:186)
-	at com.qa.test.TC01_loginApp.LoginApp1(TC01_loginApp.java:21)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</textarea>
+									" Clicked "buttonReserveFlight"
 								
 							</td>
 						</tr>
-						<tr class='log' status='fail'>
-							<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-							<td class='timestamp'>11:17:21 PM</td>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>12:32:11 AM</td>
 							<td class='step-details'>
-									<span class='badge white-text red'>LoginApp1Test case FAILED</span>
+									"lorem" is entered in text box "textboxFirstName"
 								
 							</td>
 						</tr>
-						<tr class='log' status='fail'>
-							<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-							<td class='timestamp'>11:17:22 PM</td>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>12:32:11 AM</td>
 							<td class='step-details'>
-									Snapshot below: com.aventstack.extentreports.ExtentTest@f80945f
+									"ipsum" is entered in text box "textboxLastName"
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>12:32:12 AM</td>
+							<td class='step-details'>
+									"12345" is entered in text box "textboxCardNumber"
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>12:32:13 AM</td>
+							<td class='step-details'>
+									" Clicked "buttonSecureFlight"
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>12:32:15 AM</td>
+							<td class='step-details'>
+									" Clicked "buttonHome"
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>12:32:15 AM</td>
+							<td class='step-details'>
+									<span class='badge white-text green'>SearchFlightTest case PASSED</span>
 								
 							</td>
 						</tr>
 					</tbody>
 				</table>
-				<ul class='screenshots'>
-					<li><img class='r-img' onerror='this.style.display="none"' data-featherlight='./Failure_20181219_231722_IST.png' src='./Failure_20181219_231722_IST.png' data-src='./Failure_20181219_231722_IST.png'></li>
-				</ul>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='4'>
+		<div class='collapsible-header'>
+			<div class='node-name'>SearchFlight</div>
+			<span class='node-time'>Dec 23, 2018 12:32:15 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+1ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>12:32:16 AM</td>
+							<td class='step-details'>
+									" Clicked "radioRoundTrip"
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>12:32:19 AM</td>
+							<td class='step-details'>
+									" Clicked "buttonContinue"
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>12:32:21 AM</td>
+							<td class='step-details'>
+									" Clicked "buttonReserveFlight"
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>12:32:22 AM</td>
+							<td class='step-details'>
+									"lorem" is entered in text box "textboxFirstName"
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>12:32:23 AM</td>
+							<td class='step-details'>
+									"ipsum" is entered in text box "textboxLastName"
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>12:32:23 AM</td>
+							<td class='step-details'>
+									"12345" is entered in text box "textboxCardNumber"
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>12:32:24 AM</td>
+							<td class='step-details'>
+									" Clicked "buttonSecureFlight"
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>12:32:26 AM</td>
+							<td class='step-details'>
+									" Clicked "buttonHome"
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>12:32:27 AM</td>
+							<td class='step-details'>
+									<span class='badge white-text green'>SearchFlightTest case PASSED</span>
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</li>
+	<li class='node level-1 leaf pass' status='pass' test-id='5'>
+		<div class='collapsible-header'>
+			<div class='node-name'>LogOut</div>
+			<span class='node-time'>Dec 23, 2018 12:32:27 AM</span>
+			&middot; <span class='node-duration'>0h 0m 0s+0ms</span>
+			<span class='test-status right pass'>pass</span>
+		</div>
+		<div class='collapsible-body'>
+			<div class='node-steps'>
+				<table class='bordered table-results'>
+					<thead>
+						<tr>
+							<th>Status</th>
+							<th>Timestamp</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>12:32:29 AM</td>
+							<td class='step-details'>
+									" Clicked "buttonLogout"
+								
+							</td>
+						</tr>
+						<tr class='log' status='pass'>
+							<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+							<td class='timestamp'>12:32:29 AM</td>
+							<td class='step-details'>
+									<span class='badge white-text green'>LogOutTest case PASSED</span>
+								
+							</td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 		</div>
 	</li>
@@ -334,93 +464,7 @@
 	</div>
 	<!-- subview right -->
 </div>
-<!-- test view --><!-- category view --><div id='exception-view' class='view hide'>
-	<section id='controls'>
-		<div class='controls grey lighten-4'>
-			<!-- search -->
-			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
-				<a href="#" class='search-div'>
-				<i class='material-icons'>search</i> Search
-				</a>
-				<div class='input-field left hide'>
-					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
-				</div>
-			</div>
-			<!-- search -->
-		</div>
-	</section>
-	<div class='subview-left left'>
-		<div class='view-summary'>
-			<ul id='exception-collection' class='exception-collection'>
-				<li class='exception displayed active'>
-					<div class='exception-heading'>
-						<span class='exception-name'>java.lang.AssertionError</span>
-						<span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
-					</div>
-					<div class='exception-content hide'>
-						<div class='exception-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Dec 19, 2018 11:17:18 PM</td>
-										<td class='linked' test-id='3'>com.qa.test.TC01_loginApp.LoginApp1</td>
-										<td>
-											<textarea disabled class="code-block">java.lang.AssertionError: expected [Sign-on: Mercury Tours] but found [Find a Flight: Mercury Tours:]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at org.testng.Assert.assertEquals(Assert.java:176)
-	at org.testng.Assert.assertEquals(Assert.java:186)
-	at com.qa.test.TC01_loginApp.LoginApp1(TC01_loginApp.java:21)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</textarea>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<div class='subview-right left'>
-		<div class='view-summary'>
-			<h5 class='exception-name'></h5>
-		</div>
-	</div>
-</div>
-<!-- exception view --><div id='dashboard-view' class='view hide'>
+<!-- test view --><!-- category view --><!-- exception view --><div id='dashboard-view' class='view hide'>
 	<div class='card-panel transparent np-v'>
 		<h5>Dashboard</h5>
 
@@ -434,25 +478,25 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>2</div>
+					<div class='panel-lead'>4</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Dec 19, 2018 11:16:54 PM</div>
+					<div class='panel-lead'>Dec 23, 2018 12:31:25 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Dec 19, 2018 11:17:23 PM</div>
+			 		<div class='panel-lead'>Dec 23, 2018 12:32:30 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 29s+276ms</div>
+					<div class='panel-lead'>0h 1m 4s+947ms</div>
 				</div>
 			</div>
 		</div>
@@ -464,23 +508,23 @@
 		<script>
 			var statusGroup = {
                 parentCount: 1,
-				passParent: 0,
-				failParent: 1,
+				passParent: 1,
+				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 1,
-				childCount: 2,
-				passChild: 1,
-				failChild: 1,
+				exceptionsParent: 0,
+				childCount: 4,
+				passChild: 4,
+				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
 				debugChild: 0,
-				exceptionsChild: 1,
+				exceptionsChild: 0,
 				grandChildCount: 0,
 				passGrandChild: 0,
 				failGrandChild: 0,

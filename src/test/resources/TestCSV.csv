@@ -1,0 +1,5 @@
+TestCase,Username,Password,,,,,,,,,,,
+LoginApp,mohit,mohit,,,,,,,,,,,
+TestCase,Type,Passengers,From ,Onday,OnMonth,To,ToDay,ToMonth,ServiceClass,Airline,firstName,LastName,CCNumber
+SearchFlight,Round Trip,2,London,July,25,Paris,July,29,First Class,Pangea Airlines,lorem,ipsum,12345
+SearchFlight,Round Trip,3,Paris,August,25,London,August,29,Business Class ,Unified Airlines,lorem,ipsum,12345

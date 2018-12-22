@@ -5,7 +5,7 @@ import com.qa.common.Keywords;
 public class LoginPage {
 	
 	   
-	    private static String pageName = "Login";
+	    private static  String pageName = "Login";
 	    
 	    public static void setUserName(String strUserName) {
 	    	Keywords.setText(GetLocator.findElement(pageName,"textboxUsername") ,strUserName);
@@ -17,7 +17,8 @@ public class LoginPage {
 		 
 	    public static void clickLogin(){
 	    	Keywords.click(GetLocator.findElement(pageName,"buttonLogin"));
-	    }
+	    	Keywords.waitForElementVisibility(GetLocator.findElement("FlightFinder","buttonContinue"), 30);
+	     }
 	    
         public static void loginToApp(String strUserName,String strPassword){
 	        //Fill user name
@@ -31,6 +32,11 @@ public class LoginPage {
         public static String getPageTitle() {
 			return Keywords.getPageTitle();
 		}
+        
+        public static void signOut() {
+        	Keywords.click(GetLocator.findElement(pageName,"buttonLogout"));
+        	Keywords.waitForElementVisibility(GetLocator.findElement("Login","textboxUsername"), 30);
+        }
                 	
 }  
         

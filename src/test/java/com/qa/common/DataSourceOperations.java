@@ -8,23 +8,20 @@ import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
+
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
 import org.w3c.dom.Document;
-import org.w3c.dom.Element;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
-import org.xml.sax.SAXException;
+
 
 
 public class DataSourceOperations {
@@ -41,53 +38,10 @@ public class DataSourceOperations {
 		log.info(" : FileOperation Constructor Called");
 	}
 
-	// This method is used to parse a XML with below format to a HashMap
-	/*
-	 * <?xml version="1.0" encoding="UTF-8"?> <OR> <Page name="LoginPage">
-	 * <Object name = 'UsernameTextbox'> <type>id</type> <value>Email</value>
-	 * </Object> <Object name = 'PasswordTextBox'> <type>id</type>
-	 * <value>Password</value> </Object> <Object name = 'LoginButton'>
-	 * <type>xpath</type> <value>//*[@id='loginFormId']/div[4]/div/input</value>
-	 * </Object> </Page> </OR>
-	 */
-
-	public Map<String, List<String>> ParseXml(String XMLFile)
-			throws ParserConfigurationException, SAXException, IOException {
-		log.info(" : Parse Object Locator XML - ParseXml Method Called");
-		Map<String, List<String>> map = new HashMap<String, List<String>>();
-		File inputfile = new File(XMLFile);
-		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-		DocumentBuilder docbuilder = dbFactory.newDocumentBuilder();
-		Document doc = docbuilder.parse(inputfile);
-		doc.getDocumentElement().normalize();
-		NodeList pagelist = doc.getElementsByTagName("Page");
-		for (int tmp = 0; tmp < pagelist.getLength(); tmp++) {
-			Node pageNode = pagelist.item(tmp);
-			NamedNodeMap nodeMap = pageNode.getAttributes();
-			for (int j = 0; j < nodeMap.getLength(); j++) {
-				for (int k = 0; k < nodeMap.getLength(); k++) {
-					if (pageNode.getNodeType() == Node.ELEMENT_NODE) {
-						NodeList objectList = pageNode.getChildNodes();
-						for (int i = 0; i < objectList.getLength(); i++) {
-							Node childNode = objectList.item(i);
-							if (childNode.getNodeType() == Node.ELEMENT_NODE) {
-								Element eElement = (Element) childNode;
-								List<String> vals = new ArrayList<String>();
-								map.put(eElement.getAttribute("name").toString(), vals);
-								vals.add(nodeMap.getNamedItem("name").getNodeValue().toString());
-								vals.add(eElement.getElementsByTagName("type").item(0).getTextContent().toString());
-								vals.add(eElement.getElementsByTagName("value").item(0).getTextContent().toString());
-							}
-						}
-					}
-				}
-			}
-		}
-		return map;
-	}
-	public List<String> GetXmlValue(String variablename, String XMLFile, String module)
-			throws IOException, ParserConfigurationException, SAXException {
+	
+	public List<String> GetXmlValue(String variablename, String XMLFile, String module) {
 		log.info(" : GetXMLValue Method Called");
+		try {
 		valueOfElement = new ArrayList<String>();
 		DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder docBuilder = docBuilderFactory.newDocumentBuilder();
@@ -133,6 +87,14 @@ public class DataSourceOperations {
 			}
 		}
 		return valueOfElement;
+		}
+		catch (Exception ex) {
+			System.err.format("Exception" +ex);
+			log.error(ex.getMessage());
+			ex.printStackTrace();
+			return null;
+		}
+		
 	}
 	
 	

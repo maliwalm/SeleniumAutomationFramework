@@ -13,13 +13,12 @@ public class Retry implements IRetryAnalyzer {
 
 
 	public Retry() {
-		Config.initConstants();
 		PropertyConfigurator.configure("log4j.properties");
 		log.info(" : Retry Constructor called");
 	}
 
 	public boolean retry(ITestResult result) {
-		log.info(" : Retrying Execution called");
+		log.info(" : retry Method called");
 		maxRetryCount = Integer.parseInt(Config.MaxRetryCountOnTestFailure);
 		if (retryCount < maxRetryCount) {
 			log.info(" : Retry Test onFailure called - Retrying test " + result.getName() + " with status "
@@ -31,6 +30,7 @@ public class Retry implements IRetryAnalyzer {
 	}
 
 	public String getResultStatusName(int status) {
+		log.info(" : getResultStatusName Method called");
 		String resultName = null;
 		if (status == 1)
 			resultName = "SUCCESS";

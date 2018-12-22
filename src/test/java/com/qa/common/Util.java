@@ -113,8 +113,9 @@ public class Util {
 		}
 	}
 
-	public static void zipFolder(final Path screenShotsPath, Path zipPath) throws Exception {
+	public static void zipFolder(final Path screenShotsPath, Path zipPath)  {
 		log.info(" : zipfolder Method Called");
+		try {
 		final ZipOutputStream zos = new ZipOutputStream(new FileOutputStream(zipPath.toFile()));
 		Files.walkFileTree(screenShotsPath, new SimpleFileVisitor<Path>() {
 			public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
@@ -125,6 +126,11 @@ public class Util {
 			}
 		});
 		zos.close();
+		}
+		catch (Exception ex) {
+			log.error(ex.getMessage());
+			ex.printStackTrace();
+		}
 	}
 
 	public static void SendMail(String filePath) throws MessagingException {
@@ -171,6 +177,7 @@ public class Util {
 
 	public static void isFolderExistAtPath(String filePath) {
 		log.info(" : isFolderExistAtPath Method Called");
+		try {
 		File file = new File(filePath);
 		if (file.exists() && file.isDirectory()) {
 			System.out.println("Reports Folder exists at the path " + Config.ScreenShotsPath);
@@ -178,6 +185,11 @@ public class Util {
 			System.out.println("Reports Folder doesn't exist at the path " + Config.ScreenShotsPath);
 			System.out.println("Creating Folder");
 			file.mkdir();
+		}
+		}
+		catch (Exception ex) {
+			log.error(ex.getMessage());
+			ex.printStackTrace();
 		}
 
 	}

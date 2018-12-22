@@ -25,12 +25,9 @@ public class Browser extends TestBase {
 		log.info(" : OpenBrowser Method Called");
 		// Config.initConstants();
 		if (driver == null) {
-			// Gets URL of the Test Environment from Property File
 			URL = Config.ApplicationURL;
 
 			try {
-				// Gets the Browser from the Property file, Launches Browser &
-				// navigate to Login URL
 				if (Config.Browser.equalsIgnoreCase("firefox")) {
 					System.setProperty("webdriver.gecko.driver", Config.FirefoxDriverPath);
 					DesiredCapabilities capabilities = DesiredCapabilities.firefox();

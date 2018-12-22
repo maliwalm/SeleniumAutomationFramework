@@ -11,9 +11,17 @@ public class DataProviders {
 	 private static Logger log = Logger.getLogger(DataProviders.class);
 
 	 @DataProvider(name="Login")
-     public static Object[][] getDataFromDataprovider(){
+     public static Object[][] getDataLoginData(){
 		 log.info(" : getDataFromDataprovider Method Called");
 		 String [][] dataSet = DataSourceOperations.CSVDataProvider("LoginApp", seperator ,Config.inputFile);
          return dataSet;
 	 }
+	 
+	 @DataProvider(name="SearchFlight")
+     public static Object[][] getFlightData(){
+		 log.info(" : getDataFromDataprovider Method Called");
+		 String [][] dataSet = DataSourceOperations.CSVDataProvider("SearchFlight", seperator ,Config.inputFile);
+         return dataSet;
+	 }
+	 
 }

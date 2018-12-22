@@ -19,7 +19,6 @@ public class FileOperations {
 	public FileOperations() {
 		PropertyConfigurator.configure("log4j.properties");
 		log.info(" : FileOperation Constructor Called");
-		// Config.initConstants();
 	}
 
 	public static String getPropertyValue(String key) {

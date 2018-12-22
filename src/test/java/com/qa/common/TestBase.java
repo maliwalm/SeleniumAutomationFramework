@@ -112,9 +112,6 @@ public class TestBase {
 		else{
 			test.get().pass(MarkupHelper.createLabel(result.getName() + "Test case PASSED", ExtentColor.GREEN));
 		}
-		if (eDriver != null)
-			eDriver.quit();
-		driver = null;
 		}
 		catch (IOException e){
 			System.err.format("No Element Found to enter text" + e);
@@ -131,6 +128,9 @@ public class TestBase {
 	@AfterSuite
 	protected void afterSuite() throws Exception {
 		log.info(" : TestBase - AfterSuite called");
+		if (eDriver != null)
+			eDriver.quit();
+		driver = null;
 		extent.flush();
 		Util.setScreenshotRelativePath();
 		String zipFilePath = Config.ZipPath + Util.generateUniqueName() + ".zip";

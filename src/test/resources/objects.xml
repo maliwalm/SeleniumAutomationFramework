@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Modules>
+	<Login>
+		<ElementProperty NameOfElement="textboxUsername" Type="name">userName</ElementProperty>
+		<ElementProperty NameOfElement="textboxPassword" Type="name">password</ElementProperty>
+		<ElementProperty NameOfElement="buttonLogin" Type="name">login</ElementProperty>
+		<ElementProperty NameOfElement="buttonLogout" Type="xpath">.//a[text()='SIGN-OFF']</ElementProperty>
+	</Login>
+	<FlightFinder>
+		<ElementProperty NameOfElement="buttonContinue" Type="name">findFlights</ElementProperty>
+		<ElementProperty NameOfElement="buttonReserveFlight" Type="name">reserveFlights</ElementProperty>
+		<ElementProperty NameOfElement="radioRoundTrip" Type="xpath">.//input[@value="roundtrip"]</ElementProperty>
+		<ElementProperty NameOfElement="radioOneWay" Type="xpath">.//input[@value="oneway"]</ElementProperty>
+		<ElementProperty NameOfElement="radioBusinessClass" Type="xpath">.//input[@value="Business"]</ElementProperty>
+		<ElementProperty NameOfElement="radioFirstClass" Type="xpath">.//input[@value="First"]</ElementProperty>
+		<ElementProperty NameOfElement="listPassengers" Type="name">passCount</ElementProperty>
+		<ElementProperty NameOfElement="listDepartureFrom" Type="name">fromPort</ElementProperty>
+		<ElementProperty NameOfElement="listFromMonth" Type="name">fromMonth</ElementProperty>
+		<ElementProperty NameOfElement="listFromDay" Type="name">fromDay</ElementProperty>
+		<ElementProperty NameOfElement="listArrivingIn" Type="name">toPort</ElementProperty>
+		<ElementProperty NameOfElement="listToMonth" Type="name">toMonth</ElementProperty>
+		<ElementProperty NameOfElement="listToDay" Type="name">toDay</ElementProperty>
+		<ElementProperty NameOfElement="listFromDay" Type="name">fromDay</ElementProperty>
+		<ElementProperty NameOfElement="listPreference" Type="name">airline</ElementProperty>
+	</FlightFinder>
+	<PassengerDetails>
+		<ElementProperty NameOfElement="textboxFirstName" Type="name">passFirst0</ElementProperty>
+		<ElementProperty NameOfElement="textboxLastName" Type="name">passLast0</ElementProperty>
+		<ElementProperty NameOfElement="textboxCardNumber" Type="name">creditnumber</ElementProperty>
+		<ElementProperty NameOfElement="buttonSecureFlight" Type="name">buyFlights</ElementProperty>
+		<ElementProperty NameOfElement="buttonHome" Type="xpath">.//a[text()='Flights']</ElementProperty>
+	</PassengerDetails>
+</Modules>	

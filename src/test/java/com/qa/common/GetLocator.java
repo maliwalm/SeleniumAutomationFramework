@@ -15,28 +15,25 @@ public class GetLocator extends TestBase {
 	public static By GetElement(String locatorValue, String locatorType) {
 		log.info(" : GetElement Method Called");
 		try {
-			switch (locatorType.toLowerCase()) {
-			case "id":
+			if(locatorType.equalsIgnoreCase("id"))
 				return By.id(locatorValue);
-			case "name":
+			else if(locatorType.equalsIgnoreCase("name"))
 				return By.name(locatorValue);
-			case "classname":
-			case "class":
+			else if(locatorType.equalsIgnoreCase("class"))
 				return By.className(locatorValue);
-			case "tagname":
+			else if(locatorType.equalsIgnoreCase("tagname"))
 				return By.tagName(locatorValue);
-			case "linktext":
+			else if(locatorType.equalsIgnoreCase("linktext"))
 				return By.linkText(locatorValue);
-			case "partiallinktext":
+			else if(locatorType.equalsIgnoreCase("partiallinktext"))
 				return By.partialLinkText(locatorValue);
-			case "cssselector":
+			else if(locatorType.equalsIgnoreCase("cssselector"))
 				return By.cssSelector(locatorValue);
-			case "xpath":
+			else if(locatorType.equalsIgnoreCase("xpath"))
 				return By.xpath(locatorValue);
-			default:
+			else 
 				throw new Exception("DOM FINDER : did not find the correct dom finder type in the file for locator value: "
 						+ locatorValue);
-		}
 		}
 		catch(Exception ex) {
 			System.err.format("Exception" +ex);
@@ -44,7 +41,6 @@ public class GetLocator extends TestBase {
 			ex.printStackTrace();
 			return null;
 		}
-		
 	}
 
 	public static By findElement(String PageName, String ObjectName) {
